@@ -30,6 +30,7 @@ class VaoSpider(scrapy.Spider):
         day, month, year = date
         official_date = f"{year}-{month}-{day}"
 
+    # this is a new feature
 
 process = CrawlerProcess()
 process.crawl(VaoSpider)
